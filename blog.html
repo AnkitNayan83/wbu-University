@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>University</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="css/img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate and Online Programs</h1>
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="css/img/certificate.jpg" alt="">
+                <h2>Our Certificate and Online Programs for 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus praesentium a nihil quo nobis modi facilis tempora dolores rem voluptate, numquam aperiam? Laboriosam nulla, sunt, error praesentium adipisci accusantium sed dolores deleniti natus soluta facilis nihil aut, corporis asperiores? Reprehenderit.</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum adipisci blanditiis, aliquid nam fugiat repellendus voluptate tempore enim deserunt sint placeat aperiam cupiditate quidem ut, iste distinctio accusamus eligendi officiis. Nesciunt eos eum sint enim.</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur non deleniti sint eum repellat quidem. Nisi eos impedit blanditiis nulla aut tempora odit ipsum neque, magni nesciunt dicta aspernatur optio velit provident! Molestias ut consequatur facilis iste in et eos minus vitae reprehenderit! Est sapiente facere quibusdam neque eum reprehenderit fugit ad porro, expedita atque velit consequuntur, nesciunt, enim vel!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsum iure aliquam architecto exercitationem. Consequatur tempora nostrum amet dicta, quaerat omnis voluptate modi et ipsum reiciendis quasi distinctio. Corrupti, praesentium.</p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="btn red-btn">Post comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Machine learning</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Big Data</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Programing</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Artificial Inteligence</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, aliquid. Blanditiis odio eius repudiandae nulla aliquid. Similique error odio ipsam animi, fugit quod magnam ratione.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+<script>
+
+var navLinks = document.getElementById("navLinks")
+function showMenu(){
+    navLinks.style.right="0";
+}
+function hideMenu(){
+    navLinks.style.right="-200px"
+}
+
+</script>
+
+</body>
+</html>
